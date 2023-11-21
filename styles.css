@@ -1,0 +1,85 @@
+* {
+    font-family: 'Poppins', serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 400;
+}
+.header {
+    text-align: center;
+    color: azure;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.container {
+    width: 50%;
+    max-width: 70%;
+    margin: 0 auto;
+    background: rgba(2, 48, 71, 0.6);
+    border-radius: 15px;
+}
+
+form > label {
+    font-size: 18px;
+    color: azure;
+    display: flex;
+    padding-top: 10px;
+}
+
+.wrapper {
+    padding: 5%;
+}
+
+form > input, select {
+    display: block;
+    border: 1px solid #ced4da;
+    border-radius: 0.5rem;
+    width: 100%;
+    font-size: 18px;
+}
+
+.reco label {
+    font-size: 18px;
+    color: azure;
+    display: flex;
+}
+.question {
+    font-size: 18px;
+    color: azure;
+    display: flex;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.improvement label {
+    font-size: 18px;
+    color: azure;
+    display: flex;
+}
+
+textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+
+#submit {
+    background-color: #ffb703;
+    font-size: 18px;
+    color: azure;
+    border-radius: 1rem;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+#submit:hover {
+    background-color: #fb8500;
+    transition: 1s;
+}
